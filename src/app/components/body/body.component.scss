@@ -1,0 +1,89 @@
+@import '../../styles/main.scss';
+
+.input-container{
+    width: 100%;
+    background-color: #00434B0A;
+    margin: 24px 0px;
+
+}
+
+.body-container{
+    height: calc(100% - 84px);
+    width: 100%;
+    background-color: #F6F6F6;
+    padding-top: 20px;
+    position: relative;
+
+    mat-card{
+
+        @media screen and (max-width: 768px) {
+            margin: 0px 8px;
+        }
+    
+        @media screen and (min-width: 768px) {
+            margin: 0px 64px;
+        }
+        
+
+        h1{
+            color: var(--black);
+            margin: 0px;
+            font-size: 20px;
+        }
+
+        h2{
+            color: var(--grey);
+            margin: 0px;
+            font-size: 14px;
+        }
+
+        section {
+            text-align: right;
+            margin-top: 14px;
+
+            button{
+                margin: 0px 8px;
+            }
+        }
+
+        .mat-slide-toggle {
+            float: right;
+            margin: 12px;
+        }
+
+        .mat-input{
+            margin: 16px;
+        }
+
+    }
+
+    .green-icon{
+        color: #BCDA84;
+    }
+
+    .blue-icon{
+        color: #00A9C9;
+    }
+
+    .grey-icon{
+        color: #767676;
+    }
+
+    .mat-list-text-container{
+        position: absolute;
+        right: 8px;
+    }
+
+    .mat-list-devider{
+        height: 2px;
+        background-color: #00434B;
+    }
+
+    .fab-button{
+        position: fixed;
+        bottom: 16px;
+        right: 16px;
+        background-color: #BCDA84;
+        color: black;
+    }
+}

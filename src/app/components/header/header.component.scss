@@ -1,0 +1,47 @@
+mat-toolbar{
+    background-color: var(--dark-green);
+    height: 64px;
+}
+
+.col{
+    display: flex;
+}
+
+.header-title-container{
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin: auto;
+}
+
+.logo-container{
+    color: white;
+    display: flex;
+
+    mat-icon{
+        margin: auto;
+    }
+
+    img{
+        margin-left: 36px;
+    }
+}
+
+.icon-container{
+    margin: auto;
+    color: white;
+    display: flex;
+    
+
+    @media screen and (max-width: 768px) {
+        margin-right: -16px;
+    }
+
+    @media screen and (min-width: 768px) {
+        margin-right: 16px;
+    }
+
+    .material-icons{
+        margin: 0px 16px;
+    }
+}

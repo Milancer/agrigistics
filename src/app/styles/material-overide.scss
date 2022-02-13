@@ -1,0 +1,52 @@
+.primary-material-button {
+    background: #00434B;
+    color: white;
+    font-family: 'poppins';
+}
+
+.primary-material-stroked-button {
+    border-color: var(--dark-green);
+    color: var(--dark-green);
+}
+
+.no-padding {
+    .mat-form-field-wrapper {
+      padding: 0 !important;
+    }
+  }
+
+:host ::ng-deep .mat-slide-toggle.mat-checked:not(.mat-disabled) .mat-slide-toggle-bar {
+    background-color: grey ;
+}
+
+:host ::ng-deep  .mat-slide-toggle.mat-checked:not(.mat-disabled) .mat-slide-toggle-thumb {
+    background-color: var(--dark-green) ;
+}
+
+table{
+    margin-top: 24px;
+    width: 100%;
+    box-shadow: none !important;
+}
+
+mat-card{
+    padding: 32px;
+}
+
+mat-form-field{
+    width: 90%;
+}
+
+.mat-header-cell {
+    flex-direction: column;
+    justify-content: center;
+}
+
+mat-list { 
+    overflow: auto; 
+}
+
+.mat-list-base .mat-list-item{
+    height: 48px;
+}
+

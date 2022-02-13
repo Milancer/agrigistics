@@ -1,0 +1,11 @@
+//fonts
+@font-face{
+    font-family: poppins;
+    src: url(../../assets/fonts/Poppins-Regular.ttf) format('truetype')
+}
+
+//stlye sheets
+@import './material-overide.scss';
+@import './color-settings.scss';
+@import './mobile.scss';
+
